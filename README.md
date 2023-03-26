@@ -23,7 +23,7 @@ Overall, this tool provides researchers with a comprehensive analysis of lysosom
 - create a folder to storage the marked image and the excel file.
 
 ## set configuration
-in the main.py, to set the configuration based on your data.
+in the `bash main.py`, to set the configuration based on your data.
 ```bash
 parser.add_argument('--file_path', dest='file_path', default='./control/', nargs='+', help='the path of storing your image file')
 parser.add_argument('--output_path', dest='output_path', default='./saved_control/', nargs='+', help='the path of saving the marked image')
